@@ -67,7 +67,8 @@ button{
 }
 
 .media{
-    margin: 20px auto 40px calc(50% - 142px);
+    text-align:center;
+    margin: 20px auto 40px;
 }
 
 .icon{
