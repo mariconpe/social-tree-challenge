@@ -1,0 +1,83 @@
+@font-face {
+    font-family: normal;
+    src: url(Jakarta.ttf);
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#face{
+    width: 200px;
+    border: #ffb9c8 solid 1px;
+    border-radius: 500px;
+    margin: 40px 0px 30px;
+    margin-left: calc(50% - 100px); /*(half of screen - half of box width); centers box*/
+}
+
+h1, h3{
+    text-align: center;
+    font-weight: 300;
+    font-family: normal;
+    color: #ff8aa3;
+}
+
+h3{
+    font-weight: 600;
+}
+
+.link{
+    width: 380px;
+    border: #ffb9c8 solid 1.2px;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: normal;
+    color: #5b83c9;
+}
+
+#linktop{
+    margin-top: 60px;
+}
+
+#linkbottom{
+    margin-bottom: 60px;
+}
+
+.link:hover{ /*thickens border when hover*/
+    /*border: cornflowerblue solid 2px;
+    color: ;
+    background-color: rgba(177, 210, 235, 0.082);
+    cursor: pointer;*/
+    background-color: #5b83c9;
+    border: #5b83c9 solid 1.2px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.link:active{ /*changes color when clicked*/
+    background-color: aliceblue;
+    border: #5b83c9 solid 2.5px;
+    font-weight: 600;
+    color: #5b83c9;
+    cursor: pointer;
+}
+
+.media{
+    margin-left: calc(50% - 135px); /*box width = [icons width (24px)*5 + margin (20px)*2]/2*/
+}
+
+.icon{
+    margin: 0px 15px 50px;
+}
+
+.icon:hover{
+    width: 30px;
+    cursor: pointer;
+}
+
+.icon:active{
+    cursor: pointer;
+}
