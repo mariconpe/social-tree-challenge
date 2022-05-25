@@ -11,7 +11,7 @@ body{
     width: 200px;
     border: #ffb9c8 solid 1px;
     border-radius: 500px;
-    margin: 40px 0px 30px;
+    margin: 30px 0px 30px;
     margin-left: calc(50% - 100px); /*(half of screen - half of box width); centers box*/
 }
 
@@ -66,7 +66,7 @@ h3{
 }
 
 .media{
-    margin-left: calc(50% - 135px); /*box width = [icons width (24px)*5 + margin (20px)*2]/2*/
+    margin-left: calc(50% - 142px);
 }
 
 .icon{
