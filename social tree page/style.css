@@ -11,8 +11,7 @@ body{
     width: 200px;
     border: #ffb9c8 solid 1px;
     border-radius: 500px;
-    margin: 30px 0px 30px;
-    margin-left: calc(50% - 100px); /*(half of screen - half of box width); centers box*/
+    margin: 40px calc(50% - 100px) 5px; /*(half of screen - half of box width); centers box*/
 }
 
 h1, h3{
@@ -26,11 +25,15 @@ h3{
     font-weight: 600;
 }
 
+.links{
+    margin: 35px calc(50% - 190px) 25px;
+}
+
 .link{
     width: 380px;
     border: #ffb9c8 solid 1.2px;
     padding: 15px;
-    margin: 20px auto;
+    margin: 15px auto;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -38,12 +41,11 @@ h3{
     color: #5b83c9;
 }
 
-#linktop{
-    margin-top: 60px;
-}
-
-#linkbottom{
-    margin-bottom: 60px;
+.link button{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
 }
 
 .link:hover{ /*thickens border when hover*/
@@ -66,11 +68,11 @@ h3{
 }
 
 .media{
-    margin-left: calc(50% - 142px);
+    margin: 20px auto 40px calc(50% - 142px);
 }
 
 .icon{
-    margin: 0px 15px 50px;
+    margin: 0px 15px;
 }
 
 .icon:hover{
