@@ -26,19 +26,23 @@ h3{
 }
 
 .links{
-    margin: 35px calc(50% - 190px) 25px;
+    margin: 40px calc(50% - 190px) 30px;
 }
 
 .link{
     width: 380px;
     border: #ffb9c8 solid 1.2px;
     padding: 15px;
-    margin: 15px auto;
+    margin: 35px auto;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     font-family: normal;
     color: #5b83c9;
+}
+
+button{
+    display: block;
 }
 
 .link button{
