@@ -45,6 +45,10 @@ button{
     display: block;
 }
 
+a{
+    text-decoration: none;
+}
+
 .link button{
     position: absolute;
     opacity: 0;
@@ -73,14 +77,16 @@ button{
 
 .media{
     text-align:center;
-    margin: 20px auto 40px;
+    margin: 14px auto 40px;
 }
 
-.icon{
-    margin: 0px 15px;
+.media img{
+    margin: 6px 15px 0px;
+    width: 24px;
 }
 
-.icon:hover{
+.media img:hover{
     width: 30px;
+    margin: 0px 12px 0px;
     cursor: pointer;
 }
